@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        background-color: rgb(145, 246, 219);
+        margin-left:400px;
+        margin-right:400px;
+        padding:20px
+    }
+</style>
+<body>
+    <center>
+    <form>
+        <h2>Registration form</h2>
+        <lable for="name">Name</lable><br><br>
+        <input type="text" name="name" id="name"required><br><br>
+        <label for="email">Email</label><br><br>
+        <input type="email"name="email" id="email" required><br><br>
+        <label for="password">password</label><br><br>
+        <input type="password"name="password" id="password" required><br><br>
+        <label for="tel">ph.no</label><br><br>
+        <input type="tel" name="ph.no" id="ph.no" required><br><br>
+        <label for="gender">gender</label><br><br>
+        <select id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="others">others</option>
+        </select><br><br>
+        <label for="lang">language</label><br><br>
+        <select id="lang">
+            <option value="telugu">telugu</option>
+            <option value="tamil">tamil</option>
+            <option value="english">english</option>
+        </select><br><br>
+        <label for="zipcode">zipcode</label><br><br>
+        <input type="text" name="zipcode" id="zipcode" required><br><br>
+        <label for="about">about</label><br><br>
+        <textarea id="about" rows="5" cols="30"></textarea>
+        <button>submit</button><br><br>
+    </form>
+</body>
+</html>
